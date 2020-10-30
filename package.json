@@ -8,7 +8,7 @@
     "start": "react-scripts start",
     "build": "babel src --out-dir lib",
     "build-dev": "babel src --out-dir lib --source-maps inline",
-    "prepare": "babel src --out-dir lib"
+    "postinstall": "babel src --out-dir lib"
   },
   "author": "David M. Weigl, David Lewis, Oxford e-Research Centre, University of Oxford",
   "license": "BSD-3-Clause",
