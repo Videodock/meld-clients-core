@@ -8,19 +8,19 @@
     "start": "react-scripts start",
     "build": "babel src --out-dir lib",
     "build-dev": "babel src --out-dir lib --source-maps inline",
-    "postinstall": "babel src --out-dir lib"
+    "prepare": "babel src --out-dir lib"
   },
   "author": "David M. Weigl, David Lewis, Oxford e-Research Centre, University of Oxford",
   "license": "BSD-3-Clause",
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.9.0",
-    "@babel/plugin-transform-modules-commonjs": "^7.12.1",
-    "@babel/preset-react": "^7.9.1",
     "chai": "^3.5.0",
     "jsdom": "^8.1.0"
   },
   "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.12.1",
+    "@babel/preset-react": "^7.9.1",
     "axios": "^0.19.0",
     "immutability-helper": "^2.1.2",
     "jsonld": "^0.4.11",
